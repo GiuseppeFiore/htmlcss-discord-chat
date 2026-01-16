@@ -53,7 +53,7 @@ main {
 
 /* HEADER */
 .right-container {
-    background-color: red;
+    background-color: #2b2d31;
     width: 100%;
 }
 
@@ -116,6 +116,61 @@ main {
     border-radius: 4px;
     background: #2b2d31;
 }
+
+/* CHAT GRID */
+.people-grid {
+    display: grid;
+    width: 400px;
+    height: 100px;
+    
+}
+
+.person-card {
+    position: relative;
+    border-radius: 16px;
+    padding: 24px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.person-card img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.badge {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background: #111;
+    color: #fff;
+    font-size: 12px;
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
